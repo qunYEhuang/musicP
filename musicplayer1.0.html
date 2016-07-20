@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="music_001.ico" media="screen">
+	<title>music player</title>
+	<link rel="stylesheet" href="playCss.css">
+</head>
+	<script>		
+		function d(){
+			var x = document.getElementById("au");
+			x.play();
+		}
+
+		function s(){
+			var x = document.getElementById("au");
+			x.pause();
+		}
+	</script>
+
+<body bgcolor="#BBBBBB">
+
+	<div id="buttonArea">
+		<div onclick="d();" class="button" id="music_div_001">
+			<img src="player-play.ico">
+		</div>
+
+		<div onclick="s();" class="button" id="music_div_002">
+			<img src="player-pause.ico">
+		</div>
+	</div>
+
+	<audio id="au">
+		<source src="恋爱循环.mp3" type="audio/mpeg" />
+	</audio>
+		
+
+</body>
+</html>

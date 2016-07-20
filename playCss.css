@@ -1,0 +1,45 @@
+/*playCss.css*/
+
+#buttonArea {
+	position: absolute;
+	background-color: #BBBBBB;
+	bottom: 40%;
+	left: 42%;
+	width: 16%;
+}
+
+.button:hover {
+	cursor: pointer;
+
+}
+
+.button {
+	display: inline;
+}
+
+#music_div_001 {
+	position: absolute;
+	left: 0;
+
+	font-family: cursive;
+	font-size: 30px;
+	color: black;
+}
+
+#music_div_002 {
+	position: absolute;
+	right: 0;
+
+	font-size: 30px;
+	font-family: cursive;
+	color: black;
+}
+
+a {
+	color: #000000;
+	text-decoration:none;
+}
+
+a:hover {
+	cursor: pointer;
+}
